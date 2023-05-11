@@ -1,0 +1,25 @@
+.menu {
+    display: inline-flexbox;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    background-image: linear-gradient(GoldenRod, DarkGoldenRod,LightGoldenRodYellow );
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    position: static;
+    width: 100%;
+    border: 2px solid rgb(87, 78, 0);
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+}
+.logo {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(153, 21, 21);
+    text-decoration: none;
+}
+.link {
+    color: azure;
+    text-decoration: none;
+    margin: 10px;
+}

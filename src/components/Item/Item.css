@@ -1,0 +1,14 @@
+.item {
+    position: relative;
+}
+
+
+.card {
+    background-color: black;
+    color: rgb(253, 234, 127);
+    border: 2px solid rgb(87, 78, 0);
+    font-family: sans-serif;
+}
+.botonDetalle {
+    background-color: darkgoldenrod;
+}

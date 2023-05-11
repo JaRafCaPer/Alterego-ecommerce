@@ -1,0 +1,16 @@
+img{
+    width: 200px;
+    height: 250px;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+h1{
+    text-align:center;
+    color: antiquewhite;
+    font-family: sans-serif;
+}

@@ -1,0 +1,28 @@
+.listado{
+    display:inline-table;
+    justify-content:baseline;
+    margin:10px;
+}
+.empty {
+    font-size: 10ch;
+    color: azure;
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 5ch;
+    color: azure;
+}
+.boton {
+    margin: 10px;
+}
+strong {
+    font-family: sans-serif;
+    font-size: 5ch;
+    color: azure;
+}
+
+.img{
+    width: 100px;
+    height: 130px;
+}
