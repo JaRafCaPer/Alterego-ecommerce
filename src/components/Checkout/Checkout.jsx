@@ -90,8 +90,10 @@ export const Checkout = () => {
                     <Col>Item: {prod.name}</Col>
                     <Col>Price: ${prod.price}</Col>
                     <Col>Amount: {prod.counter}</Col>
-                    <Col>Subtotal: ${prod.price * prod.counter}</Col>
+                    <Col>Item subtotal: ${prod.price * prod.counter}</Col>
+                    <hr/>
                   </Row>
+                  
               ))
             }
         </Col>

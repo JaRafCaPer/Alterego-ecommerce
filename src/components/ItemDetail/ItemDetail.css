@@ -7,7 +7,7 @@
 
     @media screen and (max-width: 500px ){
         .cardDetail {
-            max-width:50%;
+            max-width:70%;
             max-height: 30%;
         }
         
@@ -15,4 +15,8 @@
 
 .botonAdd {
     background-color: darkgoldenrod;
+}
+hr {
+    height: 20px;
+    color: darkgoldenrod;
 }

@@ -1,5 +1,14 @@
 .check {
     background-image: url(https://w.wallhaven.cc/full/e7/wallhaven-e7g87k.png);
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 500px ){
+    .check {
+        font-size: medium;
+        display: inline-block;
+    }
+    
 }
 .chlist{
     display: inline-flex;
