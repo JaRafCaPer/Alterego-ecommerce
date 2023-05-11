@@ -4,6 +4,15 @@
     left: 15%;
     font-family: sans-serif;
 }
+
+    @media screen and (max-width: 500px ){
+        .cardDetail {
+            max-width:50%;
+            max-height: 30%;
+        }
+        
+    }
+
 .botonAdd {
     background-color: darkgoldenrod;
 }
