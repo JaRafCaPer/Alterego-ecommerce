@@ -4,9 +4,9 @@
 
 
 .card {
-    background-color: black;
+    background-image: url(https://introduction1.com/wp-content/uploads/2022/03/image-25.png);
     color: rgb(253, 234, 127);
-    border: 2px solid rgb(87, 78, 0);
+    border: 3px solid rgb(87, 78, 0);
     font-family: sans-serif;
 }
 .botonDetalle {
