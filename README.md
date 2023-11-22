@@ -18,16 +18,6 @@ Welcome to Alterego, a medieval fantasy store inspired by the video game Elden R
 
 The project is a medieval fantasy store designed to provide a captivating shopping experience inspired by the world of Elden Ring.
 
-## Application Architecture
-
-- **Model-View-Controller (MVC):** The project follows a structured MVC architecture for effective organization and separation of concerns.
-- **3-Layer Architecture:** Utilizes Controllers, Services, and Repositories to maintain a clear and modular codebase.
-- **Design Patterns:**
-  - **DAO (Data Access Object):** Implements the DAO pattern for diverse persistence methods.
-  - **DTO (Data Transfer Object):** Ensures secure transmission of information.
-  - **Factory Pattern:** Enhances flexibility and scalability.
-- **Error Handling:** Implements a custom error-handling module for precise issue resolution.
-- **Logging:** Utilizes loggers for effective debugging and monitoring.
 
 ## Implemented Features
 
