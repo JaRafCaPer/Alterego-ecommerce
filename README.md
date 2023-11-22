@@ -1,33 +1,80 @@
-# Alterego: Tienda de fantasía medieval basada en Elden Ring
+# Alterego: Medieval Fantasy Store inspired by Elden Ring ⚔️🏰
 
-Este proyecto es una tienda de fantasía medieval inspirada en el videojuego Elden Ring. La tienda se llama Alterego y es solo una muestra de las habilidades que estoy adquiriendo en React JS. Esta tienda cuenta con la alimentación de una base de datos de Firebase y genera órdenes de compra. Es un proyecto básico para experimentar con las funcionalidades de React JS.
+## Introduction
 
-## Librerías utilizadas
-Sweetalert: librería utilizada para mostrar alertas y notificaciones atractivas.
-Bootstrap: un framework de diseño web que proporciona herramientas para crear sitios web responsivos y móviles.
-React Icons: librería de iconos para React.
-Material Components: una librería de componentes de React basada en Material Design.
+Welcome to Alterego, a medieval fantasy store inspired by the video game Elden Ring. This project serves as a showcase of skills acquired in React JS. The store, named Alterego, is a basic project designed to experiment with React JS functionalities. It utilizes a Firebase database for data storage and order generation.
 
-## Funcionalidades
+<p align="center">
+    <img
+    src="https://eldenring.wiki.fextralife.com/file/Elden-Ring/one-eyed_shield_elden_ring_wiki_guide_200px.png"
+    alt="Alterego"
+    width="300px"
+    height="300px"
+    align="center"
+/>
+</p>
 
-Visualización de productos.
-Filtrado de productos por categoría.
-Agregar productos al carrito de compras.
-Visualización del carrito de compras.
-Creación de órdenes de compra.
-Almacenamiento de órdenes de compra en una base de datos de Firebase.
+## Application Overview
 
-## Cómo utilizar el proyecto
+The project is a medieval fantasy store designed to provide a captivating shopping experience inspired by the world of Elden Ring.
 
-Clonar el repositorio
-Instalar las dependencias con npm install
-Ejecutar el servidor de desarrollo con npm start
-Abrir el navegador en http://localhost:3000/
+## Application Architecture
 
-## Conclusión
+- **Model-View-Controller (MVC):** The project follows a structured MVC architecture for effective organization and separation of concerns.
+- **3-Layer Architecture:** Utilizes Controllers, Services, and Repositories to maintain a clear and modular codebase.
+- **Design Patterns:**
+  - **DAO (Data Access Object):** Implements the DAO pattern for diverse persistence methods.
+  - **DTO (Data Transfer Object):** Ensures secure transmission of information.
+  - **Factory Pattern:** Enhances flexibility and scalability.
+- **Error Handling:** Implements a custom error-handling module for precise issue resolution.
+- **Logging:** Utilizes loggers for effective debugging and monitoring.
 
-Este proyecto fue creado con la finalidad de experimentar con las funcionalidades de React JS y mostrar una tienda de fantasía medieval inspirada en el juego Elden Ring. Siéntete libre de explorar el proyecto y mejorar sus funcionalidades.
+## Implemented Features
 
+- **Product Display:**
+  - A captivating presentation of fantasy products.
+- **Category Management:**
+  - Organize products by various fantasy categories.
+- **Shopping Cart:**
+  - Add products to the cart for a seamless shopping experience.
+- **Order Creation:**
+  - Generate orders for the chosen fantasy items.
+- **Firebase Integration:**
+  - Store orders securely in a Firebase database.
+
+## Libraries Used
+
+- **@emotion/react:** Version 11.11.0
+- **@emotion/styled:** Version 11.11.0
+- **@mui/material:** Version 5.13.0
+- **@testing-library/jest-dom:** Version 5.16.5
+- **@testing-library/react:** Version 13.4.0
+- **@testing-library/user-event:** Version 13.5.0
+- **bootstrap:** Version 5.3.0-alpha3
+- **bootstrap-icons:** Version 1.10.5
+- **firebase:** Version 8.10.0
+- **react:** Version 18.2.0
+- **react-bootstrap:** Version 2.7.4
+- **react-bootstrap-icons:** Version 1.10.3
+- **react-dom:** Version 18.2.0
+- **react-icons:** Version 4.8.0
+- **react-router-dom:** Version 6.11.1
+- **react-scripts:** Version 5.0.1
+- **sweetalert2:** Version 11.7.5
+- **web-vitals:** Version 2.1.4
+
+## How to Use the Project
+
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Run the development server with `npm start`.
+4. Open the browser at [http://localhost:3000/](http://localhost:3000/).
+
+## Conclusion
+
+This project was created to experiment with React JS functionalities and showcase a medieval fantasy store inspired by the game Elden Ring. Feel free to explore the project and enhance its features.
+
+---
 
 
 # Getting Started with Create React App
